@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rhadax</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+      <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body id="page-top" class="home bg-color-1" data-spy="scroll">
+
+	<!-- PAGE WRAP -->
+	<div id="page-wrap">
+		    <!-- HEADER -->
+    	<header id="header" class="header">
+
+            <!-- BANNER -->
+            <div id="banner" class="bn-img">
+                <div class="bg-parallax banner-parallax"></div>
+                <div class="overlay-pattern-1"></div>
+            </div>
+            <!-- END / BANNER -->
+
+        	<div class="container">
+
+	            <!-- LOGO -->
+	            <div class="logo text-center"><a href="index.html"><%= image_tag("logo.png", :alt => "Nicolas Candelon développeur ruby on rails à Agen") %></a></div>
+	            <!-- END / LOGO -->
+
+	            <!-- HEAD CONTENT -->
+	            <div class="head-content text-center">
+	                <div class="head-title text-uppercase">
+	                    <h1 class="rotate">Hello buddy, We are Cross square, We create Apps</h1>
+	                    <hr class="line">
+	                </div>
+	                <p>This theme is unique, clean and useful. Only use it when you are ready to fall in love with it. OR we will support you once you purchased.</p>
+	            </div>
+	             <!--END / HEAD CONTENT -->
+        	</div>
+
+	        <div class="cs-scroll">
+	            <i class="fa fa-angle-down"></i>
+	            <div class="line-1"></div>
+	            <div class="line-2"></div>
+	            <div class="line-3"></div>
+	            <div class="line-4"></div>
+	        </div>        
+    	</header>
+    	<!-- END / HEADER -->
+<!-- NAVIGATION -->
+    <nav class="navigation">
+        <div class="logo-nav text-center"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+        
+        <ul class="nav text-center text-uppercase">
+            <li><a href="#page-top" data-title="Home">Home</a></li>
+            <li><a href="#about" data-title="About">About</a></li>
+            <li><a href="#work" data-title="Portfolio">Portfolio</a></li>
+            <li><a href="#service" data-title="Service">Service</a></li>
+            <li><a href="#team" data-title="Team">Team</a></li>
+            <li><a href="#blog-time" data-title="Blog">Blog</a></li>
+        </ul>
+    </nav>
+    <!-- END / NAVIGATION -->
+
+    <!-- CONTACT AND SOCIAL -->
+    <div class="page-right-nav">
+        <div class="contact-slide">
+            <h4 class="open-pp-contact">Contact</h4>
+
+            <div class="pp-contact">
+                <div class="inner">
+                    <h5>Contact</h5>
+                    <div id="map"></div>
+
+                    <div class="address">
+                        <div class="half">
+                            <i class="icon md-icon-location"></i>
+                            <ul>
+                                <li>Office #01</li>
+                                <li>42 Maverick Street, Boston, MA 02128</li>
+                                <li>support@themestreet.net</li>
+                                <li>1-855-289-5858</li>
+                            </ul>
+                        </div>
+                        <div class="half">
+                            <i class="icon md-icon-location"></i>
+                            <ul>
+                                <li>Office #02</li>
+                                <li>42 Maverick Street, Boston, MA 02128</li>
+                                <li>support@themestreet.net</li>
+                                <li>1-855-289-5858</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <form id="send-message-form" action="processContact.php" method="post">
+                            <div class="half">
+                                <textarea class="message" name="message" onfocus="if(this.value == 'Give us a message or just say hello') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Give us a message or just say hello'; }">Give us a message or just say hello</textarea>
+                            </div>
+                            <div class="half">
+                                <input class="email" type="text" name="email" value="Email Address" onfocus="if(this.value == 'Email Address') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Email Address'; }">
+                                <input class="name" type="text" name="name" value="Your Lovely Name" onfocus="if(this.value == 'Your Lovely Name') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Your Lovely Name'; }">
+                                <button id="submit-contact" class="cs-btn btn-md btn-style-1 submit text-uppercase" type="submit">Send Message</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <div id="contact-content"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="social">
+            <a href="#"><i class="fa fa-dribbble"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-tumblr"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+    </div>
+    <!-- END / CONTACT AND SOCIAL -->
+
+		<%= yield %>
+
+	</div>
+</body>
+</html>
