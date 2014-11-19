@@ -838,7 +838,7 @@ p {
 .logo {
   position: absolute;
   display: inline-block;
-  top: 9.7%;
+  top: 4%;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
@@ -878,16 +878,16 @@ p {
   display: inline-block;
   font-family: 'Abel', sans-serif;
   font-size: 8em;
-  color: #f2b23d;
+  color: #ff6000;
 }
 .head-title h1.typer span {
   position: relative;
   z-index: 1;
-  color: #f2b23d !important;
+  color: #ff6000 !important;
   background-color: rgba(242,178,61,.3) !important;
 }
 .head-title hr.line {
-  background-color: #f2b23d;
+  background-color: #ff6000;
   width: 160px;
   height: 1px;
   border: 0;
@@ -915,11 +915,11 @@ p {
   transition: all .35s ease;
 }
 .cs-scroll:hover {
-  box-shadow: inset 0 0 0 30px #f2b23d;
+  box-shadow: inset 0 0 0 30px #ff6000;
 }
 .cs-scroll .fa {
   font-size: 24px;
-  color: #f2b23d;
+  color: #ff6000;
   line-height: 50px;
   -webkit-transform: rotate(-45deg);
      -moz-transform: rotate(-45deg);
@@ -941,7 +941,7 @@ p {
   content: '';
   display: block;
   position: absolute;
-  background: #f2b23d;
+  background: #ff6000;
 }
 .cs-scroll .line-1 {
   width: 0; height: 1px;
@@ -1256,10 +1256,10 @@ p {
   background-color: #fff;
 }
 .navigation .nav li.active a {
-  color: #f2b23d;
+  color: #ff6000;
 }
 .navigation .nav li.active a:before {
-  background-color: #f2b23d;
+  background-color: #ff6000;
 }
 .navigation .nav li a:after {
   content: attr(data-title);
