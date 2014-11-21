@@ -86,23 +86,14 @@
                         <h5>Contact</h5>
                         <div id="map"></div>
 
-                        <div class="address">
+                        <div itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address" class="address">
                             <div class="half">
                                 <i class="icon md-icon-location"></i>
                                 <ul>
-                                    <li>Office #01</li>
-                                    <li>42 Maverick Street, Boston, MA 02128</li>
-                                    <li>support@themestreet.net</li>
-                                    <li>1-855-289-5858</li>
-                                </ul>
-                            </div>
-                            <div class="half">
-                                <i class="icon md-icon-location"></i>
-                                <ul>
-                                    <li>Office #02</li>
-                                    <li>42 Maverick Street, Boston, MA 02128</li>
-                                    <li>support@themestreet.net</li>
-                                    <li>1-855-289-5858</li>
+                                    <li itemprop="street-address">Impasse Darnalt Résidence Palycéa</li>
+                                    <li itemprop="locality">47000 Agen</li>
+                                    <li >n.can2lon@gmail.com</li>
+                                    <li itemprop="tel">06-84-87-95-83</li>
                                 </ul>
                             </div>
                         </div>
@@ -110,13 +101,13 @@
                         <div class="contact-form">
                             <form id="send-message-form" action="processContact.php" method="post">
                                 <div class="half">
-                                    <textarea class="message" name="message" onfocus="if(this.value == 'Give us a message or just say hello') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Give us a message or just say hello'; }">Give us a message or just say hello</textarea>
+                                    <textarea class="message" name="message" onfocus="if(this.value == 'Give us a message or just say hello') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Give us a message or just say hello'; }">Une question ? Un projet ?</textarea>
                                 </div>
                                 <div class="half">
                                     <input class="email" type="text" name="email" value="Email Address" onfocus="if(this.value == 'Email Address') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Email Address'; }">
                                     <input class="name" type="text" name="name" value="Your Lovely Name" onfocus="if(this.value == 'Your Lovely Name') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Your Lovely Name'; }">
                                     <!-- <input type="submit" value="SEND MESSAGE" class="cs-btn btn-md btn-style-1 submit text-uppercase"> -->
-                                    <button id="submit-contact" class="cs-btn btn-md btn-style-1 submit text-uppercase" type="submit">Send Message</button>
+                                    <button id="submit-contact" class="cs-btn btn-md btn-style-1 submit text-uppercase" type="submit">Envoyer</button>
                                 </div>
                             </form>
 
