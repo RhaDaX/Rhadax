@@ -231,6 +231,16 @@ html .bg-parallax {
   z-index: 0;
   opacity: .6;
 }
+.overlay-pattern-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: black;
+  opacity: .6;
+}
 .section-wrap {
   position: relative;
   z-index: 3;
@@ -404,7 +414,7 @@ p {
   position: absolute;
   width: 130%;
   height: 1px;
-  background-color: #f2b23d;
+  background-color: #ff6000;
   margin: auto;
   left: -15%;
 }
@@ -425,7 +435,7 @@ p {
   position: absolute;
   width: 30px;
   height: 30px;
-  border: 2px solid #f2b23d;
+  border: 2px solid #ff6000;
 }
 .pre-item-1 {
   top: -15%;
@@ -832,13 +842,13 @@ p {
   height: 100%;
   top: 0;
   left: 0;
-  background-image: url('../images/background/bg-header.jpg');
+  background-image: url('/assets/bg.jpg');
 }
 
 .logo {
   position: absolute;
   display: inline-block;
-  top: 4%;
+  top: 0;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
@@ -854,7 +864,7 @@ p {
 .head-content {
   position: absolute;
   width: 100%;
-  top: 50%;
+  top: 60%;
   left: 50%;
   padding-left: 30px;
   padding-right: 30px;
