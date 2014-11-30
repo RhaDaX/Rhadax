@@ -339,20 +339,21 @@ p {
   height: 60px;
   line-height: 60px;
   border-radius: 0;
-  border: 0;
+  border: 1px solid #ff6000;
   cursor: pointer;
-  -webkit-transition: all 0.3s linear 0s;
-  -moz-transition: all 0.3s linear 0s;
-  -o-transition: all 0.3s linear 0s;
-  transition: all 0.3s linear 0s;
+  -webkit-transition: all .35s ease;
+  -moz-transition: all .35s ease;
+  -o-transition: all .35s ease;
+  transition: all .35s ease;
 }
 .btn-style-1 {
-  background-color: #f2b23d;
+  background-color: #ff6000;
   color: #fff;
 }
 .btn-style-1:hover {
-  background-color: #DB940F;
-  color: #fff;
+  background-color: transparent;
+  color: #ff6000;
+  border: 1px solid #ff6000;
 }
 .btn-style-2 {
   background-color: #cc1453;
@@ -363,7 +364,6 @@ p {
   color: #fff;
 }
 .cs-btn.btn-md {
-  border: 0;
   cursor: pointer;
   font-size: 16px;
   width: 100%;
@@ -1469,7 +1469,7 @@ p {
 .pp-contact h5 {
   font-family: 'Abel', sans-serif;
   font-size: 2.4em;
-  color: #f2b23d;
+  color: #ff6000;
   line-height: 2em;
   border-bottom: 1px solid #262626;
 }

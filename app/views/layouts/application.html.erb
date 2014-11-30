@@ -64,7 +64,7 @@
 
         <!-- NAVIGATION -->
         <nav class="navigation">
-            <div class="logo-nav text-center"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+            <div class="logo-nav text-center"><a href="index.html"><%= image_tag("logo.png", :alt => "Nicolas Candelon développeur ruby on rails à Agen") %></a></div>
             
             <ul class="nav text-center text-uppercase">
                 <li><a href="#page-top" data-title="Home">Home</a></li>
@@ -102,11 +102,12 @@
                         <div class="contact-form">
                             <form id="send-message-form" action="processContact.php" method="post">
                                 <div class="half">
-                                    <textarea class="message" name="message" onfocus="if(this.value == 'Give us a message or just say hello') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Give us a message or just say hello'; }">Une question ? Un projet ?</textarea>
+                                    <textarea class="message" name="message" placeholder="Votre message" onfocus="if(this.placeholder == 'Votre message') { this.placeholder = ''; }" onblur="if(this.placeholder == '') { this.placeholder = 'Votre message'; }"></textarea>
                                 </div>
                                 <div class="half">
-                                    <input class="email" type="text" name="email" value="Email Address" onfocus="if(this.value == 'Email Address') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Email Address'; }">
-                                    <input class="name" type="text" name="name" value="Your Lovely Name" onfocus="if(this.value == 'Your Lovely Name') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Your Lovely Name'; }">
+                                    <input class="email" type="text" name="email" placeholder="Votre adresse mail" onfocus="if(this.placeholder == 'Votre adresse mail') { this.placeholder = ''; }" onblur="if(this.placeholder == '') { this.placeholder = 'Votre adresse mail'; }">
+                                    <input class="name" type="text" name="name"  placeholder="Votre nom" onfocus="if(this.placeholder == 'Votre nom') { this.placeholder = ''; }" onblur="if(this.placeholder == '') { this.placeholder = 'Votre nom'; }">
+
                                     <!-- <input type="submit" value="SEND MESSAGE" class="cs-btn btn-md btn-style-1 submit text-uppercase"> -->
                                     <button id="submit-contact" class="cs-btn btn-md btn-style-1 submit text-uppercase" type="submit">Envoyer</button>
                                 </div>
