@@ -2558,14 +2558,14 @@ label.error {
   border-left: 1px solid #363636;
   border-top: 1px solid #363636;
   padding: 0 20px 45px;
-  -webkit-transition: all 0.3s linear 0s;
-  -moz-transition: all 0.3s linear 0s;
-  -o-transition: all 0.3s linear 0s;
-  transition: all 0.3s linear 0s;
+  -webkit-transition: all 0.5s linear 0s;
+  -moz-transition: all 0.5s linear 0s;
+  -o-transition: all 0.5s linear 0s;
+  transition: all 0.5s linear 0s;
 }
 .service-content .item .icon {
   display: block;
-  color: #f2b23d;
+  color: #FF6000;
   font-size: 60px;
   line-height: 125px;
   background-position: center center;
@@ -2574,7 +2574,7 @@ label.error {
 .service-content .item h4 {
   font-family: 'Abel', sans-serif;
   font-size: 3.2em;
-  color: #f2b23d;
+  color: #ff6000;
   height: 32px;
   overflow: hidden;
   -webkit-transition: all 0.3s linear 0s;
@@ -2583,7 +2583,7 @@ label.error {
   transition: all 0.3s linear 0s;
 }
 .service-content .item h4 a {
-  color: #f2b23d;
+  color: #ff6000;
 }
 .service-content .item p {
   font-family: 'Lato', sans-serif;
@@ -2594,13 +2594,14 @@ label.error {
   max-width: 270px;
   overflow: hidden;
   margin: 15px auto 0;
-  -webkit-transition: all 0.3s linear 0s;
-  -moz-transition: all 0.3s linear 0s;
-  -o-transition: all 0.3s linear 0s;
-  transition: all 0.3s linear 0s;
+  -webkit-transition: all 1s linear 0s;
+  -moz-transition: all 1s linear 0s;
+  -o-transition: all 1s linear 0s;
+  transition: all 1s linear 0s;
 }
 .service-content .item:hover {
-  background-color: #f2b23d;
+  background-color: #ff6000;
+  box-shadow: inset 0 0 0 400px #ff6000;
 }
 .service-content .item:hover h4,
 .service-content .item:hover p,
