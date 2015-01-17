@@ -1750,13 +1750,13 @@ label.error {
 .client-content .item {
   display: block;
   margin-bottom: 2px;
-  background-color: rgba(38, 38, 38, 0.8);
   line-height: 170px;
   padding: 0 20px;
   text-align: center;
 }
 .client-content .item img {
   opacity: .5;
+  width: 160px;
   -webkit-transition: all 0.3s linear 0s;
   -moz-transition: all 0.3s linear 0s;
   -o-transition: all 0.3s linear 0s;
@@ -3605,7 +3605,7 @@ label.error {
   font-family: 'Lato', sans-serif;
   font-size: 14px;
   text-align: center;
-  background-color: #f2b23d;
+  background-color: #FF6000;
   padding: 25px 0;
   z-index: 3;
   color: #000;
