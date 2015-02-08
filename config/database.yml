@@ -15,7 +15,6 @@ test:
   pool: 5
   username: heisenberg
   password: Cuculapraline85
-  socket: /opt/local/var/run/mysql5/mysqld.sock
 
 production:
   adapter: mysql
@@ -25,7 +24,4 @@ production:
   pool: 5
   username: heisenberg
   password: Cuculapraline85
-<<<<<<< HEAD
-  socket: /opt/local/var/run/mysql5/mysqld.sock
-=======
->>>>>>> a79b2efa4d3db6a91738cdb857d3b03442b460ac
+
