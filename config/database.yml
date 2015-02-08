@@ -6,7 +6,7 @@ development:
   pool: 5
   username: heisenberg
   password: Cuculapraline85
-  socket: /opt/local/var/run/mysql5/mysqld.sock
+
 test:
   adapter: mysql
   encoding: utf8
