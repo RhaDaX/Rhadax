@@ -219,7 +219,7 @@ html .bg-parallax {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("pattern-1.png") repeat;
+  background: url('../images/pattern-1.png') repeat;
   z-index: 0;
 }
 
@@ -229,7 +229,7 @@ html .bg-parallax {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("pattern-1.png") repeat;
+  background: url('../images/pattern-1.png') repeat;
   z-index: 0;
   opacity: .6;
 }
@@ -675,7 +675,6 @@ p {
 /* 4.   Header
 --------------------------------------------------------------------------------*/
 #header {
-  
   position: relative;
 }
 #header .container {
@@ -775,6 +774,7 @@ p {
     z-index: -1;
 }
 .video-place, .bg-video {
+    background-image: url('../images/background/bg-header.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -845,7 +845,7 @@ p {
   height: 100%;
   top: 0;
   left: 0;
-  background-image: url('bg.jpg');
+  background-image: url('/assets/bg.jpg');
 }
 
 .logo {
@@ -1259,7 +1259,11 @@ p {
   z-index: 999;
 
   -moz-transition: all .8s linear;
-
+  /*-webkit-transition: background-color 0.3s linear, opacity 0.8s cubic-bezier(1, 0.01, 0.29, 0.93);
+  -moz-transition: background-color 0.3s linear, opacity 0.8s cubic-bezier(1, 0.01, 0.29, 0.93);
+  -ms-transition: background-color 0.3s linear, opacity 0.8s cubic-bezier(1, 0.01, 0.29, 0.93);
+  -o-transition: background-color 0.3s linear, opacity 0.8s cubic-bezier(1, 0.01, 0.29, 0.93);
+  transition: background-color 0.3s linear, opacity 0.8s cubic-bezier(1, 0.01, 0.29, 0.93);*/
 }
 .navigation .nav li a:hover:before {
   background-color: #fff;
@@ -1364,7 +1368,7 @@ p {
   height: 22px;
   top: 27px;
   right: 22px;
-  background: url('icon-close.png') no-repeat left top;
+  background: url('../images/icon-close.png') no-repeat left top;
   cursor: pointer;
   z-index: 9999;
   -webkit-transition: all 0.3s ease 0s;
@@ -1572,7 +1576,7 @@ p {
   height: 22px;
   top: 35px;
   right: 25px;
-  background: url('icon-close.png') no-repeat left top;
+  background: url('../images/icon-close.png') no-repeat left top;
   cursor: pointer;
   z-index: 9999;
   -webkit-transition: all 0.3s ease 0s;
@@ -1700,7 +1704,7 @@ label.error {
   content: '';
   display: block;
   position: absolute;
-  background: url('list-icon.png') no-repeat;
+  background: url('../images/list-icon.png') no-repeat;
   width: 16px;
   height: 11px;
   top: 5px;
@@ -1722,7 +1726,7 @@ label.error {
 /* 7.   Client
 --------------------------------------------------------------------------------*/
 .client .bg-parallax {
-
+  background-image: url('../images/background/bg-header.jpg');
 }
 .client .title {
   text-align: center;
@@ -1903,7 +1907,7 @@ label.error {
   height: 100%;
   top: -20%;
   left: 0;
-  background: url('pattern-1.png') repeat;
+  background: url('../images/pattern-1.png') repeat;
   opacity: 0;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -2440,6 +2444,7 @@ label.error {
   padding-bottom: 65px;
 }
 .andmore .bg-parallax {
+  background-image: url('../images/background/bg-header.jpg');
   min-height: 500px;
 }
 .andmore .title {
@@ -2801,7 +2806,9 @@ label.error {
   padding-top: 65px;
   padding-bottom: 65px;
 }
-.funfact .bg-parallax {}
+.funfact .bg-parallax {
+  background-image: url('../images/background/bg-header.jpg');
+}
 .funfact .title {
   text-align: center;
   padding-bottom: 25px;
@@ -3415,6 +3422,7 @@ label.error {
   width: 100%;
   height: 100%;
   z-index: -1;
+  background-image: url('../images/background/bg-header.jpg');
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -3511,6 +3519,7 @@ label.error {
 /* 14.   Footer
 --------------------------------------------------------------------------------*/
 .footer .bg-parallax {
+  background-image: url('../images/background/bg-header.jpg');
 }
 .footer .section-wrap {
   padding-bottom: 0;
@@ -3537,7 +3546,7 @@ label.error {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background: url('social-icon.png') no-repeat;
+  background: url('../images/social-icon.png') no-repeat;
 }
 .foot-social a .icon-twitter {
   background-position: 0 0;
