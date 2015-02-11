@@ -219,7 +219,7 @@ html .bg-parallax {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(<% asset_path "pattern-1.png" %>) repeat;
+  background: url("pattern-1.png") repeat;
   z-index: 0;
 }
 
@@ -229,7 +229,7 @@ html .bg-parallax {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(<% asset_path "pattern-1.png" %>) repeat;
+  background: url("pattern-1.png") repeat;
   z-index: 0;
   opacity: .6;
 }
@@ -845,7 +845,7 @@ p {
   height: 100%;
   top: 0;
   left: 0;
-  background-image: url(<% asset_path 'bg.jpg' %>);
+  background-image: url('bg.jpg');
 }
 
 .logo {
@@ -1364,7 +1364,7 @@ p {
   height: 22px;
   top: 27px;
   right: 22px;
-  background: url(<% asset_path 'icon-close.png' %>) no-repeat left top;
+  background: url('icon-close.png') no-repeat left top;
   cursor: pointer;
   z-index: 9999;
   -webkit-transition: all 0.3s ease 0s;
@@ -1572,7 +1572,7 @@ p {
   height: 22px;
   top: 35px;
   right: 25px;
-  background: url(<% asset_path 'icon-close.png'%> ) no-repeat left top;
+  background: url('icon-close.png') no-repeat left top;
   cursor: pointer;
   z-index: 9999;
   -webkit-transition: all 0.3s ease 0s;
@@ -1700,7 +1700,7 @@ label.error {
   content: '';
   display: block;
   position: absolute;
-  background: url(<% asset_path 'list-icon.png' %>) no-repeat;
+  background: url('list-icon.png') no-repeat;
   width: 16px;
   height: 11px;
   top: 5px;
@@ -1903,7 +1903,7 @@ label.error {
   height: 100%;
   top: -20%;
   left: 0;
-  background: url(<% asset_path 'pattern-1.png' %>) repeat;
+  background: url('pattern-1.png') repeat;
   opacity: 0;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -3537,7 +3537,7 @@ label.error {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background: url(<% asset_path 'social-icon.png' %>) no-repeat;
+  background: url('social-icon.png') no-repeat;
 }
 .foot-social a .icon-twitter {
   background-position: 0 0;
