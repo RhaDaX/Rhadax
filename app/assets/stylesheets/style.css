@@ -1257,13 +1257,8 @@ p {
   bottom: 0;
   right: -36px;
   z-index: 999;
-
   -moz-transition: all .8s linear;
-  /*-webkit-transition: background-color 0.3s linear, opacity 0.8s cubic-bezier(1, 0.01, 0.29, 0.93);
-  -moz-transition: background-color 0.3s linear, opacity 0.8s cubic-bezier(1, 0.01, 0.29, 0.93);
-  -ms-transition: background-color 0.3s linear, opacity 0.8s cubic-bezier(1, 0.01, 0.29, 0.93);
-  -o-transition: background-color 0.3s linear, opacity 0.8s cubic-bezier(1, 0.01, 0.29, 0.93);
-  transition: background-color 0.3s linear, opacity 0.8s cubic-bezier(1, 0.01, 0.29, 0.93);*/
+
 }
 .navigation .nav li a:hover:before {
   background-color: #fff;
