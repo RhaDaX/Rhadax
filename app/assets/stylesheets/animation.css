@@ -1,6 +1,14 @@
 /*
    Animation example, for spinners
 */
+.fa.fa-eye.fa-6:before {
+  font-size: 50px;
+  color: #ff6000;
+}
+.caption {
+  border-right: 2px solid #ff6000;
+  border-left: 2px solid #ff6000;
+}
 .animate-spin {
   -moz-animation: spin 2s infinite linear;
   -o-animation: spin 2s infinite linear;
