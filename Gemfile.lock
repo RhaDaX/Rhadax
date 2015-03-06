@@ -94,7 +94,6 @@ GEM
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
     libv8 (3.16.14.7)
-    magnific-popup-rails (0.9.9.1)
     mail (2.6.1)
       mime-types (>= 1.16, < 3)
     mime-types (2.4.3)
@@ -178,7 +177,6 @@ DEPENDENCIES
   devise
   jbuilder (~> 2.0)
   jquery-rails
-  magnific-popup-rails
   mysql
   rails (= 4.1.6)
   sass-rails (~> 4.0.3)
