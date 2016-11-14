@@ -98,7 +98,12 @@
                 <div class="pp-contact">
                     <div class="inner">
                         <h5>Contact</h5>
-                        <div id="map"></div>
+                        <div id="map" style="position: relative; overflow: hidden;">
+													<div style="height: 100%; width: 100%; position: absolute; background-color: rgb(229, 227, 223);">
+														<%= image_tag("agen.jpg", :alt => "Agen", :title => "Agen") %>
+													</div>
+                        	
+                        </div>
 
                         <div itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address" class="address">
                             <div class="half">
@@ -161,7 +166,7 @@
 <!-- END / PAGE WRAP -->
 
 <!-- Load jQuery -->
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script> -->
 
 <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 
