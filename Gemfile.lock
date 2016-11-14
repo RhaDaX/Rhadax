@@ -17,7 +17,7 @@ GIT
       sass-rails
 
 GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
     actionmailer (4.1.6)
       actionpack (= 4.1.6)
@@ -185,3 +185,6 @@ DEPENDENCIES
   therubyracer
   turbolinks
   uglifier (>= 1.3.0)
+
+BUNDLED WITH
+   1.13.3
