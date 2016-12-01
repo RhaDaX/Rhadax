@@ -16,7 +16,7 @@ group :production do
   gem 'therubyracer'
 end
 group :development, :test do
-  #gem 'pg'
+  gem 'pg'
 end
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -31,7 +31,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'devise'
-
+gem 'cloudinary'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

@@ -1,0 +1,18 @@
+development:
+  cloud_name: rhadax
+  api_key: '536719949276957'
+  api_secret: 3QoXpk8JLSgxarnvEpfZCPMfcpU
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: rhadax
+  api_key: '536719949276957'
+  api_secret: 3QoXpk8JLSgxarnvEpfZCPMfcpU
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: rhadax
+  api_key: '536719949276957'
+  api_secret: 3QoXpk8JLSgxarnvEpfZCPMfcpU
+  enhance_image_tag: true
+  static_image_support: false
