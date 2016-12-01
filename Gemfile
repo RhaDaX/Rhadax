@@ -16,7 +16,7 @@ group :production do
   gem 'therubyracer'
 end
 group :development, :test do
-  gem 'pg'
+  #gem 'pg'
 end
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
