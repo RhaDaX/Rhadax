@@ -289,19 +289,6 @@
 
 
 	    /*==============================
-	        Funfact slider
-	    ==============================*/
-	    $('.funfact-slider').owlCarousel({
-	        navigation: true,
-	        slideSpeed: 1000,
-	        transitionStyle: 'fadeUp',
-	        singleItem:true,
-	        pagination: false,
-	        navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right "></i>']
-	    });
-
-
-	    /*==============================
 	        Blog
 	    ==============================*/
 
@@ -341,25 +328,6 @@
 	    $(window).bind('resize load', function () {
 	        setBlog();
 	    }).trigger('resize');
-
-
-	    /*==============================
-	        Single slider
-	    ==============================*/
-	    $(".single-slider").owlCarousel({
-	        autoPlay: 10000,
-	        items: 4,
-	        itemsDesktop : [1700,3],
-	        itemsDesktopSmall : [1199,2],
-	        itemsTablet: [992,2],
-	        itemsTabletSmall: [600,1],
-	        slideSpeed: 600,
-	        navigation: true,
-	        pagination: false,
-	        navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right "></i>']
-	    });
-	    var textTitle = $('.post-content-slider h4.title-slider').text();
-	    $('.post-content-slider .owl-buttons').prepend('<h4 class="title-slider">' + textTitle + '</h4>');
 
 
 
@@ -481,31 +449,6 @@
 	        }
 	      });
 	    }
-    
-
-
-    
-	    /*==============================
-	        Parallax background
-	    ==============================*/
-	    function parallaxInit() {
-	        $('#banner .bg-parallax').parallax("50%", 0.3);
-	        $('.about .bg-parallax').parallax("50%", 0.3);
-	        $('.client .bg-parallax').parallax("50%", 0.3);
-	        $('.work .bg-parallax').parallax("50%", 0.3);
-	        $('.andmore .bg-parallax').parallax("50%", 0.3);
-	        $('.service .bg-parallax').parallax("50%", 0.3);
-	        $('.team .bg-parallax').parallax("50%", 0.3);
-	        $('.funfact .bg-parallax').parallax("50%", 0.3);
-	        $('.blog-time .bg-parallax').parallax("50%", 0.3);
-	        $('.footer .bg-parallax').parallax("50%", 0.3);
-	    }
-	    if (mobilecheck()) {
-	        parallaxInit();
-	    }
-	    $(window).bind('load', function () {
-	        parallaxInit();                       
-	    });
 
 
 	});
