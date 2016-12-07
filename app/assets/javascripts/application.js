@@ -35,7 +35,7 @@
 	        /*==============================
 	            Preloader
 	        ==============================*/
-	        $(".preloader").animate({
+	        $(".preloaderR").animate({
 	            left: '100%'
 	        }, 1000, 'easeInOutExpo');
 
@@ -105,7 +105,7 @@
 
 	        {    featureType: 'all',  stylers: [{saturation: -100},{gamma: 0.50}  ]}
 	    ];
-	    var latlng = new google.maps.LatLng(45.738028, 21.224535);
+	    var latlng = new google.maps.LatLng(44.196704, 0.620614);
 	    var settings = {
 	        zoom: 16,
 	        center: latlng,
@@ -143,12 +143,12 @@
 	        content: contentString
 	    });
 
-	    var companyImage = new google.maps.MarkerImage('images/icon-location.png',
+	    var companyImage = new google.maps.MarkerImage('assets/icon-location.png',
 	        new google.maps.Size(26, 41),
 	        new google.maps.Point(0, 0),
 	        new google.maps.Point(35, 20)
 	    );
-	    var companyPos = new google.maps.LatLng(45.738028, 21.224535);
+	    var companyPos = new google.maps.LatLng(44.196704, 0.620614);
 	    var companyMarker = new google.maps.Marker({
 	        position: companyPos,
 	        map: map,
